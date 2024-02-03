@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      flex-direction: column;
+     
+  }
+.container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/codingbg.png");
+  
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+  
+}
+.container :hover{
+    cursor: grab;
+}
+.container p{
+    text-align: center;
+    border: 5px solid #48ee59;
+    color: white;
+    align-self: center;
+    margin: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    justify-content: space-between;
+
+}

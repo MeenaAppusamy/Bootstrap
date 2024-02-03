@@ -1,0 +1,17 @@
+h1{
+    background-color: antiquewhite;
+    font-family: open serif;
+    font-weight: 600;
+    font-size: larger;
+
+}
+.black-text{
+    color: black !important;
+
+}
+.green-text{
+    color: green !important;
+}
+#orange-text{
+    color: orange !important;
+}

@@ -1,0 +1,13 @@
+.content{
+    color: orange;
+    font-size: 25px;
+}
+.sub-content{
+background-color: dodgerblue;
+font-size: 26px;
+font-weight: 500;
+}
+.para{
+    background-color: orange!important;
+
+}

@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-direction: column;
+   
+}
+.container{
+    background-color: blue;
+    height: 50px;
+    width:300px ;
+    position: -webkit-sticky;
+    position: sticky;
+    color: white;
+}
+.heading {
+    color: #fff;
+     text-align: center;
+
+  }
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-thumb {
+  
+    border-radius: 2px;
+  }
+
+.chatbox {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+    width: 300px;
+    height: 500px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+   
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+    position: absolute;
+    top: 20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.chat-window {
+    flex: auto;
+    max-height: calc(150% - 150px);
+    
+    overflow: auto;
+}
+.chat-input {
+    flex: 0 0 auto;
+    height: 50px;
+    background:#47a3f3;
+    border-top: 1px solid #2671ff;
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+
+.msg-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.msg-box {
+    display: flex;
+    background:#52606d;
+    padding: 10px 10px 0 10px;
+    border-radius: 0 6px 6px 0;
+    max-width: 100%;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
+.user-img {
+    display: inline-block;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background: #2671ff;
+    margin: 0 10px 10px 0;
+}
+.flr {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 50px);
+}
+.messages {
+    flex: 1 0 auto;
+}
+.msg {
+    display: inline-block;
+    font-size: 11pt;
+    line-height: 13pt;
+    color: rgba(255,255,255,.7);
+    margin: 0 0 4px 0;
+}
+
+.username {
+    margin-right: 3px;
+}
+
+.msg-self .msg-box {
+    border-radius: 6px 0 0 6px;
+    background: #2671ff;
+    float: right;
+}
+.msg-self .user-img {
+    margin: 0 0 5px 5px;
+}
+.msg-self .msg {
+    text-align: right;
+}

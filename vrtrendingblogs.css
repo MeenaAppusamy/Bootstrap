@@ -1,0 +1,30 @@
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    color: #1f2933;
+    font-size: 30px;
+    padding: 10px;
+}
+#text{
+    color: #959ead;
+}
+#p1{
+    color: #323f4b;
+    font-size: 26px;
+    font-family: Roboto;
+}
+#btn{
+    color:#1754a1;
+    font-size: 24px;
+}
+.button{
+    color: #ffff;
+    background-color: #1754a1;
+    justify-content: start;
+    justify-items: flex-start;
+    height: 40px;
+    border: 0px;
+    margin-bottom: 10px;
+}

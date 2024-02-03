@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(245, 234, 220);
+}
+.head{
+    color: blue;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.drink{
+    color: black;
+    font-size: 26px;
+    padding: 20px;
+    font-weight: bold;
+}
+.h2{
+    text-decoration: line-through;
+    color: grey;
+    font-size: large;
+    padding: 10px;
+}
+#para{
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 26px;
+}
+.p{
+    text-decoration: line-through;
+    color: grey;
+    font-size: 24px;
+    padding: 10px;
+}
+.listen{
+    color: black;
+    padding: 10px;
+    font-size: 26px;
+
+}
+.name{
+    color: black;
+    padding: 10px;
+    font-size: 26px;
+}
+.p1{
+    color: black;
+    padding: 10px;
+    font-size: 26px;
+}

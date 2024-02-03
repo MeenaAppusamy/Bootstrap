@@ -1,0 +1,17 @@
+.head{
+    color: #323f4b;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+}
+.paragraph{
+    color: #9aa5b1;
+    font-family: Roboto;
+    font-size: 18px;
+   
+}
+.container{
+    width: 400px;
+    height: 125px;
+}
+
